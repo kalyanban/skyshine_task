@@ -1,0 +1,125 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 48, 88);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+.footer-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.footer-logo {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 8px;
+}
+.footer-all-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+}
+.footer-links-container {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    color: rgb(168, 155, 155);
+    gap: 10px;
+}
+.footer-links-list-item {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-links-list-item:hover {
+    color: white;
+}
+.footer-bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.social-media-icons-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.social-media-icons-container li {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.join-us-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.join-us-container form input {
+    border: none;
+    border-radius: 10px;
+    height: 36px;
+    width: 65%;
+    padding: 6px;
+    background-color: rgb(53, 50, 50);
+}
+.join-us-container form button {
+    border: none;
+    height: 36px;
+    width: auto;
+    margin-left: 6px;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+}
+.join-us-container form button:hover {
+    color: rgb(41, 33, 33);
+    background-color: white;
+}
+.copyright {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer-top-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-all-links-container {
+        width: 55%;
+    }
+    .footer-bottom-section {
+        width: 55%;
+    }
+}

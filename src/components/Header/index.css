@@ -1,0 +1,110 @@
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 16px;
+    margin: 0;
+    background-color: rgb(17, 6, 27);
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.lg-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    height: 80px;
+    width: 35%;
+}
+.nav-items-container-lg {
+    display: none;
+}
+.header-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.login-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    height: 36px;
+    width: 46%;
+    cursor: pointer;
+}
+.signup-button {
+    border: none;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    height: 36px;
+    width: 46%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-items-container-sm {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: auto;
+    position: relative;
+}
+.nav-button {
+    height: 36px;
+    width: auto;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-button:hover {
+    border: none;
+    background-color: white;
+    color: blueviolet;
+}
+.nav-button.active {
+    border: none;
+    background-color: white;
+    color: blueviolet;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+    .nav-items-container-lg {
+        list-style-type: none;
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .nav-items-container-sm {
+        display: none;
+    }
+    .header-button-container {
+        width: 22%;
+    }
+}
