@@ -319,6 +319,181 @@
     width: 100%;
 }
 
+.cloud-solution-container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cloud-solution-container-one h1 {
+    text-align: center;
+    color: rgb(24, 22, 22);
+    padding-bottom: 10px;
+}
+.cloud-solution-container-one p {
+    color: #3c3f41;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.solutions-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style-type: none;
+}
+.solution-item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 320px;
+    padding: 6px;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.solution-item img {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+}
+.solution-item h3 {
+    color: #212527;
+    padding-top: 12px;
+}
+.solution-item p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #212527;
+    text-align: start;
+}
+.solution-item-features-container {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.solution-item-features-container li {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ee7c12;
+    height: 36px;
+    width: auto;
+    padding: 8px;
+    border-radius: 12px;
+}
+.solution-item button {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: blue;
+    height: 36px;
+    width: 65%;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: none;
+}
+.home-faqs-container {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.home-faqs-container details {
+    height: auto;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgb(68, 67, 67);
+    padding: 15px;
+}
+.home-faqs-container details summary {
+    color: #212527;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.home-support-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.home-support-container h3 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #06547a;
+}
+.home-support-container p {
+    color: #3c3f41;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.home-support-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 25px;
+}
+.home-support-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgb(68, 67, 67);
+    padding: 16px;
+    border-radius: 12px;
+    width: 260px;
+}
+.home-support-item h4 {
+    color: #3498db;
+}
+.home-support-item button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    height: 36px;
+    width: auto;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.home-image-container {
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    width: 100%;
+    height: 340px;
+    background-image: url("https://thumbs.dreamstime.com/b/person-working-their-laptop-digital-clouds-orange-folder-icons-hovering-above-screen-symbolizing-cloud-352695370.jpg");
+    background-size: cover;
+    margin-bottom: 25px;
+    color: white;
+}
+.home-image-container p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
 
 @media screen and (min-width: 768px) {
     .home-intro-bottom-section {

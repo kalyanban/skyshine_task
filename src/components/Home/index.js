@@ -11,6 +11,8 @@ import { RiBarChartBoxAiFill } from "react-icons/ri";
 import { RiOpenaiFill } from "react-icons/ri";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoMdCheckboxOutline } from "react-icons/io";
+import { FaHeadset } from "react-icons/fa";
+import { MdOutlineLiveHelp } from "react-icons/md"
 
 const Home = () => {
     const tabs = ["AI Powered Solutions", "Scalable Cloud", "Power Cloud", "Kubernetes", "Load Balancer"]
@@ -379,6 +381,162 @@ const Home = () => {
                         {activeTab === 3 && kubernetesComponent()}
                         {activeTab === 4 && loadBalancerComponent()}
                     </div>
+                </div>
+                <div className="cloud-solution-container-one">
+                    <h1>
+                        Cloud Solutions Perfectly Aligned with Your Needs
+                    </h1>
+                    <p>
+                        Maximize your business potential with our powerful cloud offerings.
+                        Scalable, secure, and performance-driven solutions designed to adapt and grow with your needs
+                    </p>
+                    <ul className="solutions-container">
+                        <li className="solution-item">
+                            <img src="https://cdn.mos.cms.futurecdn.net/ucvfATRWvjfruza2xbFAtf-1024-75.jpg" alt="solution-image" />
+                            <h3>Scalable Cloud Server</h3>
+                            <p>
+                                Customize your cloud with CPU, RAM, storage, and more to match your system requirements. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>Scalability</li>
+                                <li>Optimization</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                        <li className="solution-item">
+                            <img src="https://yotta.com/wp-content/uploads/2025/01/comparing-ibm-p-series-to-competitors.jpg" alt="solution-image" />
+                            <h3>Power Cloud</h3>
+                            <p>
+                                Elevate your business with blazing-fast, scalable, and secure cloud infrastructure designed for growth. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>Up gradable</li>
+                                <li>Scalable</li>
+                                <li>Instant Deployment</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                        <li className="solution-item">
+                            <img src="https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/bltbc48ed26fc52a2e6/662113d63a23d006cfb09914/server-room-1_0.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale" alt="solution-image" />
+                            <h3>Bare Metal</h3>
+                            <p>
+                                Enjoy full control and maximum performance with dedicated servers built for your business. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>Full Control</li>
+                                <li>Dedicated Resources</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                        <li className="solution-item">
+                            <img src="https://i.pinimg.com/736x/68/1d/65/681d6567fb8747f58679a14f75fe4b05.jpg" alt="solution-image" />
+                            <h3>S3 Object Storage</h3>
+                            <p>
+                                Store and manage vast amounts of daat with ease, scalability, and top-tier security. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>Durability</li>
+                                <li>Cost Effective</li>
+                                <li>Easy Access</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                        <li className="solution-item">
+                            <img src="https://yotta.com/wp-content/uploads/2023/08/what-is-load-balancing-how-do-load-balancers-work.jpg" alt="solution-image" />
+                            <h3>Load Balancer</h3>
+                            <p>
+                                Distribute traffic efficiently for better speed and reliability. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>Performance Optimization</li>
+                                <li>Traffic Distribution</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                        <li className="solution-item">
+                            <img src="https://blog.tiinfotech.com/wp-content/uploads/2023/01/Top-5-Traits-of-Highly-Successful-Server-Management-Services.jpg" alt="solution-image" />
+                            <h3>Managed Server</h3>
+                            <p>
+                                Leave the management to us and enjoy high-performance servers, fully optimized and supported. 
+                            </p>
+                            <ul className="solution-item-features-container">
+                                <li>24/7</li>
+                                <li>Security Management</li>
+                            </ul>
+                            <button>Discover more</button>
+                        </li>
+                    </ul>
+                </div>
+                <div className="home-faqs-container">
+                    <details>
+                        <summary>What makes an SSCloud different from other cloud providers?</summary>
+                        <p>
+                            SSCloud prioritizes user sovereignty, meaning users fully own and control their data, identity, 
+                            and digital assets without relying on a centralized authority.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>How do I get started with SSCloud?</summary>
+                        <p>
+                            Choose a Self-Sovereign Cloud platform like NextCloud, Storj, or Sia, or set up your own decentralized cloud using IPFS or blockchain-based storage.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Is SSCloud's infrastructure secure?</summary>
+                        <p>
+                            SSCloud prioritizes user sovereignty, meaning users fully own and control their data, identity, 
+                            and digital assets without relying on a centralized authority.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Can I scale my resources as my business grows?</summary>
+                        <p>
+                            SSCloud prioritizes user sovereignty, meaning users fully own and control their data, identity, 
+                            and digital assets without relying on a centralized authority.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>What type of cloud services do you offer?</summary>
+                        <p>
+                            SSCloud prioritizes user sovereignty, meaning users fully own and control their data, identity, 
+                            and digital assets without relying on a centralized authority.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>What is your pricing model?</summary>
+                        <p>
+                            SSCloud prioritizes user sovereignty, meaning users fully own and control their data, identity, 
+                            and digital assets without relying on a centralized authority.
+                        </p>
+                    </details>
+                </div>
+                <div className="home-support-container">
+                    <h3>AI-Powered Help</h3>
+                    <p>
+                        We're here to assist you! Reach out for any questions or support
+                    </p>
+                    <div className="home-support-items-container">
+                        <div className="home-support-item">
+                            <FaHeadset size={65}/>
+                            <h4>AI Chat</h4>
+                            <p>
+                                Use our AI Chat for quick solution, personalized advice, and instant support
+                            </p>
+                            <button>Talk to Our AI Expert</button>
+                        </div>
+                        <div className="home-support-item">
+                            <MdOutlineLiveHelp size={65}/>
+                            <h4>Get Quote</h4>
+                            <p>
+                                Share your requirements, and recieve a personalized quote that fits your goals and budget
+                            </p>
+                            <button>Let's Build Your Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="home-image-container">
+                    <h1>"Where Innovation Meets Scalability"</h1>
+                    <p>Secure cloud solutions for your business growth</p>
                 </div>
             </div>
         </div>

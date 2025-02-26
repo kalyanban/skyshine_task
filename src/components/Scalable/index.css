@@ -1,0 +1,22 @@
+.scalable-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.scalable-intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px;
+    gap: 18px;
+    height: 85vh;
+    width: 100%;
+    background-image: url("https://www.rosehosting.com/wp-content/uploads/2022/03/managed-linux-vps-features.jpeg");
+    background-size: cover;
+    margin-bottom: 25px;
+    color: white;
+}
